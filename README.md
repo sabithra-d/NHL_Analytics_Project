@@ -7,10 +7,12 @@ An end-to-end data engineering and analytics pipeline built using the official N
 The NHL Analytics Hub ingests fragmented JSON data from official NHL endpoints, normalizes it into a structured relational schema, stores it in a MySQL database, and serves real-time insights via a Streamlit dashboard.
 
 3.Tech Stack
+
     Python
     MySQL 
     Pandas & Requests
     Streamlit & streamlit-option-menu
     
 4.How to Run
+
    streamlit run UI.py
